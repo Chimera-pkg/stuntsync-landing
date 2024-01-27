@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Easybank</title>
+        <title>StuntSync</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Navbar />
@@ -21,7 +21,6 @@ const Home: NextPage = () => {
         <Hero />
         <Motivation />
       </div>
-      <Blog />
       <Footer />
     </>
   );

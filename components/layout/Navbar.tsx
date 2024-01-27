@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="fixed z-50 top-0 w-full bg-white">
         <nav className="container flex justify-between items-center z-20">
           <div className="my-5 lg:my-6">
-            <img src="/images/logo.svg" alt="easybank logo" />
+            <img className='h-10 w-30 object-scale-down'  src="/images/logo.png" alt="easybank logo" />
           </div>
 
           <div className="hidden lg:block text-sm text-neutral-grayish-blue">
@@ -20,7 +20,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          <button className="hidden lg:block bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
+          <button className="hidden lg:block bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
             Request Invite
           </button>
 
