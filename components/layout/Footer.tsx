@@ -5,8 +5,8 @@ export default function Footer() {
         <div className="text-center grid grid-cols-1 justify-items-center gap-6 lg:grid-cols-12 lg:gap-0">
           <div className="flex flex-col justify-between lg:justify-self-start lg:col-span-3">
             <img
-              className="mb-7"
-              src="images/logo-white.svg"
+              className="mb-7 h-2/4 w-auto"
+              src="images/logo-footer.svg"
               alt="easybank logo"
             />
             <div className="flex justify-between items-center">
@@ -80,12 +80,12 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col justify-between items-center lg:items-end lg:justify-self-end lg:col-span-4">
-            <button className="bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
-              Try Now
-            </button>
+          <a href="https://user.stuntsync.com" className="hidden lg:block bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400" >
+  Try Now
+</a>
 
             <p className="text-neutral-grayish-blue text-sm">
-              © Easybank. All Rights Reserved
+              © Stuntsync. All Rights Reserved
             </p>
           </div>
         </div>

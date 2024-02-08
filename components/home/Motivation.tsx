@@ -1,27 +1,21 @@
 const motivationItems = [
   {
-    iconPath: '/icons/icon-online.svg',
-    title: 'Online Banking',
+    iconPath: '/icons/icon-baby.svg',
+    title: 'Stunting Early Detection',
     subtitle:
-      'Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.',
+      'You can check the stunting status of your beloved child.',
   },
   {
-    iconPath: '/icons/icon-budgeting.svg',
-    title: 'Simple Budgeting',
+    iconPath: '/icons/icon-monit.svg',
+    title: 'Monitoring Progress',
     subtitle:
-      'See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.',
+      'You can also monitor regularly to ensure your child stays healthy and free from stunting.',
   },
   {
-    iconPath: '/icons/icon-onboarding.svg',
-    title: 'Fast Onboarding',
+    iconPath: '/icons/icon-cust.svg',
+    title: 'Institution-Customizable Monitoring',
     subtitle:
-      'We don’t do branches. Open your account in minutes online and start taking control of your finances right away.',
-  },
-  {
-    iconPath: '/icons/icon-api.svg',
-    title: 'Open API',
-    subtitle:
-      'Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.',
+      'Through collaboration with various health institutions, we involve healthcare professionals to provide recommendations that can be filled flexibly based on direct examinations.',
   },
 ];
 
@@ -32,15 +26,15 @@ export default function Motivation() {
         <div className="grid lg:grid-cols-2 mb-12 lg:mb-16">
           <div className="col-span-1">
             <h2 className="text-3xl lg:text-4xl text-primary-dark-blue pb-5">
-              Why choose StuntySync?
+              Why choose StuntSync?
             </h2>
             <p className="text-neutral-grayish-blue text-sm lg:text-base leading-5">
-              We leverage Open Banking to turn your bank account into your
-              financial hub. Control your finances like never before.
+              We leverage AI to stands as a revolutionary application designed to assist parents and 
+healthcare institutions in detecting and addressing the issue of stunting in children.
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-9 lg:gap-6 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-9 lg:gap-6 lg:grid-cols-3">
           {motivationItems.map((item) => (
             <div key={item.title} className="justify-center">
               <div className="flex justify-center lg:justify-start">
