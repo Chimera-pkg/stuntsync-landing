@@ -19,9 +19,9 @@ const Home: NextPage = () => {
           <div className="bg-image-mockups absolute z-20 w-full h-full bg-no-repeat bg-auto bg-right-top -right-72 xl:-right-28"></div>
         </div>
         <Hero />
-        <Motivation />
+        {/* <Motivation /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

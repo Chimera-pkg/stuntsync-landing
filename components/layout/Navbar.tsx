@@ -20,9 +20,10 @@ export default function Navbar() {
             ))}
           </div>
 
-          <button className="hidden lg:block bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
-            Request Invite
-          </button>
+          <a href="https://user.stuntsync.com" className="hidden lg:block bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400" >
+  Try Now
+</a>
+
 
           <button
             onClick={() => setIsOpen(!isOpen)}

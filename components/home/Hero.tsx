@@ -13,9 +13,9 @@ export default function Hero() {
             <p className="text-neutral-grayish-blue text-xs lg:text-base leading-5 mb-7">
               Empowering Future by Overcoming Stunting in Children Through AI
             </p>
-            <button className="bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
-              Try For Free
-            </button>
+            <a href="https://user.stuntsync.com" className="hidden lg:block bg-blue-500 px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-blue-500 to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400" >
+  Try Now
+</a>
           </div>
         </div>
       </div>
